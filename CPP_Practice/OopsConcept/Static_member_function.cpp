@@ -19,7 +19,7 @@ private:
 	float m_width{ 0 };
 };
 
-//init of static member ( it can be initialized outside the class) -  without init compiler will thro error
+//init of static member ( it should be initialized outside the class) -  without init compiler will thro error
 int Box::s_objCount = 0;
 
 int main() {
